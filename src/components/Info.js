@@ -10,7 +10,11 @@ function Info() {
       <h2>Boluwatife Ajose</h2>
       <h4>Frontend Developer</h4>
       <h5>
-        <a href="#">boluwatifeajose.website</a>
+        <a href="https://boluwatife-ajb.github.io/Porfolio/">
+          
+        
+          boluwatifeajose.website
+        </a>
       </h5>
       <div className="info--btns">
         <button className="info--btns_white">
