@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1c1c1c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+} */
+
+/* App */
+.App {
+  width: 317px;
+  background: #1a1b21;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* Info Styles */
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info--avatar {
+  width: 317px;
+  height: 317px;
+
+  border-radius: 10px 10px 0px 0px;
+}
+
+.info > h2 {
+  margin: 20px 5px 4px 5px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.info > h4 {
+  margin: 0px 5px 20px 5px;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #f3bf99;
+}
+
+.info > h5 {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #fff;
+  margin-top: -10px;
+}
+
+.info > h5 > a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.info--btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  gap: 10px;
+}
+
+.info--btns > button {
+  font-family: Inter;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 115px;
+  height: 34px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  border: 1px solid #d1d5db;
+}
+
+.info--btns_white {
+  background: #fff;
+}
+.info--btns_white:hover {
+  background: #5093e2;
+}
+
+.info--btns_blue {
+  background: #5093e2;
+}
+.info--btns_blue:hover {
+  background: #1c1c1c;
+  color: #fff;
+}
+
+/* About */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+
+  margin-top: 30px;
+
+  padding-left: 0px;
+}
+
+.about > h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  width: 242.71px;
+  height: 21px;
+  margin-left: -27px;
+  margin-bottom: 10px;
+  color: #f5f5f5;
+}
+
+.about > p {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  width: 247px;
+  margin-top: 0;
+  height: 61px;
+  color: #fff;
+  margin-left: -23px;
+}
+
+.footer {
+  background: #161619;
+  width: 317px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 0px 0px 10px 10px;
+}
